@@ -30,7 +30,7 @@ function currentLine(katzDeliLine){
 
 
 
-    return `The line is Currently: ${tempList}`;
+    return `The line is currently: ${tempList}`;
 
 
   }
