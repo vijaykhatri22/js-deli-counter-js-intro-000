@@ -19,11 +19,11 @@ function currentLine(katzDeliLine){
     var tempList = "1. " + katzDeliLine.shift();
     var i = 1;
     while(katzDeliLine.length >0){
-      
+
       tempList = `${tempList} ${i+1}. ${katzDeliLine.shift()}`;
       i++;
     }
-    
+
 
 
 
