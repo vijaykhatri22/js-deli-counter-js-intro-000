@@ -16,10 +16,20 @@ function currentLine(katzDeliLine){
     return "The line is currently empty.";
   }
   else{
-    var tempList = katzDeliLine.shift();
-    for (var i = 1;i<=katzDeliLine.length;i++){
+    var tempList = "1. " + katzDeliLine.shift();
+    var i = 1;
+    while(katzDeliLine.length >0){
+      
       tempList = `${tempList} ${i+1}. ${katzDeliLine.shift()}`;
+      i++;
     }
+    
+
+
+
+
+
+    
     return `The line is Currently: ${tempList}`;
 
 
