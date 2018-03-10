@@ -3,3 +3,12 @@ function takeANumber (katzDeliLine,customer){
   katzDeliLine.push(customer);
   return `Welcome, ${customer}. You are number ${katzDeliLine.length} in line.`;
 }
+function nowServing(katzDeliLine){
+  if (katzDeliLine == []){
+    return "The is nobody waiting to be serverd."
+  }
+  else {
+    return katzDeliLine.shift();
+  }
+  
+}
