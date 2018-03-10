@@ -16,7 +16,7 @@ function currentLine(katzDeliLine){
     return "The line is currently empty.";
   }
   else{
-    var tempList = "1. " + katzDeliLine.shift();
+    var tempList = "1. " + katzDeliLine.shift()+",";
     var i = 1;
     while(katzDeliLine.length >0){
 
